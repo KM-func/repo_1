@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 1024px;
+    border: 2px solid black;
+    margin: auto;
+
+    .success{
+        background-color: green;
+        color: white;
+        width: 300px;
+        margin: auto;
+        padding: 3px 12px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    header{
+        width: 800px;
+        margin: auto;
+        padding: 20px 20px;
+        height: fit-content;
+        *{
+            display: inline-block;
+            margin: 0px;
+        } 
+        h2{
+            width: 78%;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        a.nav-link{
+            width: 20%;
+            text-align: right;
+        }
+    }
+    h1{
+        text-align: center;
+    }
+
+    .item-container{
+        width: fit-content;
+        margin: 10px auto;
+        .item{
+            border-radius: 8px;
+            border: 2px solid black;
+            padding: 20px;
+
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            img{
+                width: 125px;
+                height: 125px;
+                object-fit: cover;
+            }
+            p{
+                width: 100%; 
+                span{
+                    display: inline-block;  
+                    width: 80%;
+                }
+            }
+            form{
+                margin: 0px auto; 
+                input{
+                    width: 50px;
+                    margin: 0px 3px;
+                }
+                input.submit{
+                    border: 2px solid black;
+                    background-color: white;
+                    box-shadow: 2px 2px black; 
+                }
+            }
+        }
+    }
+
+    .content{
+        .success{
+            background-color: green;
+            color: white;
+            width: 300px;
+            margin: auto;
+            padding: 3px 12px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        div{
+            width: 600px;
+            margin: auto;
+
+            h3{
+                width: fit-content;
+                position: relative;
+                left: 500px;
+                margin: 0px;
+            }
+            form { 
+                padding: 30px;
+                width: 330px;
+                margin: auto;
+                label {
+                    display: inline-block;
+                    margin: 10px 0px;
+                    width: 120px;
+                }
+    
+                input {
+                    display: inline-block;
+                    width: 200px;
+                }
+    
+                .submit {
+                    width: 100px;
+                    box-shadow: 2px 2px black;
+                    outline: none;
+                    border: 2px solid black;
+                    position: relative;
+                    margin-top: 20px;
+                    background-color: rgb(71, 120, 255);
+                    left: 210px;
+                    color: white;
+                    padding: 3px 6px;
+                } 
+            }
+
+            table{
+                width: 600px;
+                margin: 10px auto;
+                border: 2px solid black;
+                border-spacing: 0px;
+
+                td, th{
+                    border-left: 1px solid black;
+                    border-right: 1px solid black;
+                    padding: 6px 6px;
+
+
+                    form{
+                        width: unset;
+                        padding: unset;
+                    }
+                    .remove{
+                        border: 2px solid black;
+                        box-shadow: 2px 2px black;
+                        width: fit-content;
+                        background: red;
+                        margin: auto;
+                        padding: 0px 4px ;
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .delete-bookmark{
+                    width: fit-content;
+                    cursor: pointer;
+                    margin: 0px;
+                    color: blue;
+                    background: none;
+                    outline: none;
+                    border: none;
+                    text-decoration: underline;
+                } 
+                .total{
+                    border-top: 2px black solid; 
+                }
+                .header{
+                    background-color: rgb(146, 146, 146);
+                }
+                .gray{
+                    background-color: rgb(218, 218, 218);
+                }
+            }
+        }
+    }
+}

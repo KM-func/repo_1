@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 1024px;
+  border: 2px solid black;
+  margin: auto;
+}
+.wrapper .success {
+  background-color: green;
+  color: white;
+  width: 300px;
+  margin: auto;
+  padding: 3px 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+.wrapper header {
+  width: 800px;
+  margin: auto;
+  padding: 20px 20px;
+  height: fit-content;
+}
+.wrapper header * {
+  display: inline-block;
+  margin: 0px;
+}
+.wrapper header h2 {
+  width: 78%;
+}
+.wrapper header h2 a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper header a.nav-link {
+  width: 20%;
+  text-align: right;
+}
+.wrapper h1 {
+  text-align: center;
+}
+.wrapper .item-container {
+  width: fit-content;
+  margin: 10px auto;
+}
+.wrapper .item-container .item {
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper .item-container .item img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+}
+.wrapper .item-container .item p {
+  width: 100%;
+}
+.wrapper .item-container .item p span {
+  display: inline-block;
+  width: 80%;
+}
+.wrapper .item-container .item form {
+  margin: 0px auto;
+}
+.wrapper .item-container .item form input {
+  width: 50px;
+  margin: 0px 3px;
+}
+.wrapper .item-container .item form input.submit {
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 2px 2px black;
+}
+.wrapper .content .success {
+  background-color: green;
+  color: white;
+  width: 300px;
+  margin: auto;
+  padding: 3px 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+.wrapper .content div {
+  width: 600px;
+  margin: auto;
+}
+.wrapper .content div h3 {
+  width: fit-content;
+  position: relative;
+  left: 500px;
+  margin: 0px;
+}
+.wrapper .content div form {
+  padding: 30px;
+  width: 330px;
+  margin: auto;
+}
+.wrapper .content div form label {
+  display: inline-block;
+  margin: 10px 0px;
+  width: 120px;
+}
+.wrapper .content div form input {
+  display: inline-block;
+  width: 200px;
+}
+.wrapper .content div form .submit {
+  width: 100px;
+  box-shadow: 2px 2px black;
+  outline: none;
+  border: 2px solid black;
+  position: relative;
+  margin-top: 20px;
+  background-color: #4778ff;
+  left: 210px;
+  color: white;
+  padding: 3px 6px;
+}
+.wrapper .content div table {
+  width: 600px;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-spacing: 0px;
+}
+.wrapper .content div table td,
+.wrapper .content div table th {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 6px 6px;
+}
+.wrapper .content div table td form,
+.wrapper .content div table th form {
+  width: unset;
+  padding: unset;
+}
+.wrapper .content div table td .remove,
+.wrapper .content div table th .remove {
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  width: fit-content;
+  background: red;
+  margin: auto;
+  padding: 0px 4px ;
+  color: white;
+  text-decoration: none;
+}
+.wrapper .content div table .delete-bookmark {
+  width: fit-content;
+  cursor: pointer;
+  margin: 0px;
+  color: blue;
+  background: none;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+}
+.wrapper .content div table .total {
+  border-top: 2px black solid;
+}
+.wrapper .content div table .header {
+  background-color: #929292;
+}
+.wrapper .content div table .gray {
+  background-color: #dadada;
+}
